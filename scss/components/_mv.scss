@@ -1,0 +1,14 @@
+.mv {
+  margin-bottom: 80px;
+  &-img {
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    object-fit: cover;
+  }
+  @media screen and (max-width:600px){
+    &-img {
+      height: calc(100vh - 60px);
+    }
+  }
+}

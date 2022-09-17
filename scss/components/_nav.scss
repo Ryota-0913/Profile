@@ -1,0 +1,20 @@
+.nav {
+  &-list {
+    display: flex;
+    padding: 10px 0;
+  }
+  &-item {
+    margin-left: 30px;
+  }
+  &-link {
+    color: #24292E;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  @media screen and (max-width :600px) {
+    &-link {
+      font-size: 14.4px;
+    }
+  }
+}
